@@ -27,8 +27,10 @@ public:
 	// This transaction simulates giving away a watch
 	std::unique_ptr<Watch>  takeWatch();
 
+	//if pWatch is NULL return false
 	//if already have a watch then return false and dont change pWatch pointer
-	//otherwise accept watch (return true) and set this->pWatch=pWatch (use std::move)
+	//otherwise accept watch and use std::move to move watch
+	//from pWatch to this->pWatch and return true
 	bool giveWatch(std::unique_ptr<Watch> &pWatch);
 
 	//Abstract Base Class (ABC), implement in derived classes

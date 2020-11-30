@@ -6,9 +6,11 @@ class Smalltalk_American :
 	public Smalltalk
 {
 public:
-	//create with appropriate phrases
-	//use base class call to set Nationality (See constants for Nationality strings)
+	//this constructor should call the 2 parameter constructor below in it's initializer list
 	Smalltalk_American(int iPerson =1);
+
+	//use base class constructor in initializer list to set Nationality and iPerson (See constants for Nationality strings)
+	//also prepare the object for use by calling populatePhrases()
 	Smalltalk_American(std::string myNationality,int iPerson =1);
 	
 	~Smalltalk_American(void);
