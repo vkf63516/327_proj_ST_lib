@@ -2,7 +2,7 @@
  * Smalltalk.cpp
  *
  *  Created on: Dec 9, 2020
- *      Author: vishalfenn
+ *      Author: Vishal Fenn
  */
 
 #include <string>

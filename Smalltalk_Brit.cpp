@@ -1,8 +1,8 @@
 /*
  * Smalltalk_Brit.cpp
  *
- *  Created on: Dec 12, 2020
- *      Author: vishalfenn
+ *  Created on: Dec 11, 2020
+ *      Author: Vishal Fenn
  */
 
 #include <vector>
@@ -12,6 +12,7 @@
 #include "./includes/constants.h"
 #include "./includes/Watch.h"
 
+//sets Nationality and iPerson and prepares populatePhrases by calling
 Smalltalk_Brit::Smalltalk_Brit(int iPerson) :
       Smalltalk(BRIT, iPerson) {
    populatePhrases();

@@ -1,8 +1,8 @@
 /*
  * ST_American_DonutEnthusiest.cpp
  *
- *  Created on: Dec 12, 2020
- *      Author: vishalfenn
+ *  Created on: Dec 11, 2020
+ *      Author: Vishal Fenn
  */
 
 #include <vector>
@@ -17,7 +17,8 @@ ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int i) :
 ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest(void) {
 
 }
-
+//the end result is mySmallTalk will contain first the base class phrases and
+//then this classes phrases
 void ST_American_DonutEnthusiest::populatePhrases() {
    mySmallTalk.push_back(AMERICAN_PHRASE_1);
    mySmallTalk.push_back(AMERICAN_PHRASE_2);
